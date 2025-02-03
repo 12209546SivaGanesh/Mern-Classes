@@ -1,0 +1,18 @@
+.a{
+    background-color: blueviolet;
+}
+p{
+    background-color: pink;
+}
+*{
+    background-color: aquamarine;
+}
+p:hover{
+    background-color: rgb(255, 0, 191);
+    font-size: 2rem;
+
+}
+p{
+    transition-duration: 10s;
+    transition-property: all;
+}
