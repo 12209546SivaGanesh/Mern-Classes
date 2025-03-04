@@ -1,0 +1,55 @@
+*{
+   padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    grid-template-rows: 100px auto;
+   
+}
+aside{
+    background-color: orange;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+header{
+    background-color: blue;
+}
+main{
+    background-color: peachpuff;
+    padding: 1rem;
+    height: calc(100vh-100px);
+    
+}
+.search-result-card{
+    display: flex;
+    padding: 1rem;
+    border: radius 0.75rem; 
+    border: 1px solid grey;
+    background-color: antiquewhite;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.search-result-card img{
+    height: 200px;
+    width:356px ;
+}
+.right-part{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.channel-name{
+    padding: 0.75rem;
+    border-radius: 0.6rem;
+    background-color: navy;
+    color: white;
+    width: fit-content;
+}
